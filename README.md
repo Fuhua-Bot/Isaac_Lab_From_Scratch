@@ -63,3 +63,33 @@ Isaac_Lab_From_Scratch/
 ├── LICENSE                # ⚖️ License information
 ├── pyproject.toml         # 🐍 Python project configuration
 └── requirements.txt       # 📦 Python dependencies
+
+## 🎲 Random Agent Test Environment
+Test the action space of the environment with random actions using the following command:
+
+```bash
+isaacpython scripts/random_agents.py
+
+## 🏋️ Start Reinforcement Learning Training
+Start training using the following command:
+
+```bash
+isaaclabpython rsl_rl/train.py --task=project_name --num_envs=4096 --headless
+Parameter Explanation:
+--task: Specifies the task name, which should match the project name.
+--num_envs: Sets the number of parallel environments (e.g., 4096).
+--headless: Runs in headless mode (without a graphical interface).
+--resume: Resumes training from a specified log path, for example:
+
+
+```bash
+logs/rsl_rl/project_name/2025-01xxxxx/
+
+## ⚙️ Overview of Scripts
+rename_template.py
+Used for renaming projects.
+
+Usage:
+
+```bash
+isaacpython scripts/rename_template.py project_name
