@@ -1,0 +1,1 @@
+from .isaac_lab_from_scrach_cfg import *
