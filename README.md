@@ -74,7 +74,7 @@ isaacpython scripts/random_agents.py
 Start training using the following command:
 
 ```bash
-isaaclabpython rsl_rl/train.py --task=project_name --num_envs=4096 --headless
+isaaclabpython rsl_rl/train.py --task=bip-wl-minimal --num_envs=4096 --headless --resume logs/rsl_rl/bip-wl-minimal/2025-01-10_16-59-30/
 ```
 Parameter Explanation:
 --task: Specifies the task name, which should match the project name.
